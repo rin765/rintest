@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memento Mori</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="top_bar">
+            <nav class="left_bar">
+                <ul>
+                    <li>TOP</li>
+                    <li>MOIVE</li>
+                    <li>GALLERY</li>
+                    <li>VOICE</li>
+                    <li>SONG</li>
+                    <li>STORY</li>
+                    <li>SPECIAL</li>
+                    <li>GAME</li>
+                </ul>
+            </nav>
+            <div class="right_bar">
+                <img class="icon_key" src="./img/icon_key.png" alt="">
+                <img class="icon_glabal" src="./img/icon_glabal.png" alt="">
+                <p>Language</p>
+            </div>
+        </div>
+    
+        <div class="contents">
+          
+            <picture>
+                <img src="./img/illust@pc.webp" alt="">
+            </picture>
+    
+            <video class="video" poster="" controlslist="nodownload" webkit-playsinline="" playsinline="" muted="" autoplay="" loop="">
+                <source src="./video/AA.mp4" type="video/mp4">
+                
+            </video>
+          
+            
+            <div class="bgm">
+              <h1>GALLERY</h1>
+              <div class="bgm_right">
+                <div class="name_bgm">
+                    <img src="./img/bg_bgm@pc.png" alt="">
+    
+                    <p>♪ VII . THE RUST</p>
+                    
+                </div>
+                
+                <div class="play">
+                    <p>BGM</p>
+                    <audio id="audio" src="asset/audio/48.Ⅶ.THE_RUST.mp3" autoplay loop></audio>
+                    <button onclick="play();">
+                        <div>
+                            <img src="img/btn_play.png" alt="">
+                        </div>
+
+                    </button>
+                    
+    
+                </div>
+                <script>
+                    function play(){
+                        var audio = document.getElementById('audio');
+                        if(audio.paused){
+                            audio.play();
+                        }else{
+                            audio.pause();
+                        }
+                    }
+                </script>
+    
+              </div>
+                
+               
+               
+            </div>
+            
+            
+            <div class="text_right">
+                <img src="./img/bg_charactertext_right@pc.png" alt="">
+                <div class="name">
+                    <p class="aa"><b>A.A.</b></p>
+                    <nav>
+                        <ul>
+                            <li>VOICE</li>
+                            <li>Minori Chihara</li>
+                        </ul>
+                        <ul>
+                            <li>SONG</li>
+                            <li>Minori Chihara</li>
+                        </ul>
+                    </nav>
+     
+                    <div class="body">
+                        <p>
+                            A homunculus created in a research laboratory. Although she was born
+                            <br class="pc-item">
+                            without human emotions, she gradually begins to understand them 
+                            <br class="pc-item">
+                            through the many interactions she has with her beloved professor.
+                            <br class="pc-item">
+                            But in doing so, she also learns of the cruel emotion called “sadness.”
+                        </p>
+                    </div>
+                </div> 
+            </div>
+    
+            <div class="gallery">
+                <img src="./img/bg_characterlist@pc.png" alt="">
+                <div class="character">
+                 
+                    <div class="character_img">
+                        <img src="./img/gallery/nav (1).png" alt="">
+                        <img src="./img/gallery/nav (2).png" alt="">
+                        <img src="./img/gallery/nav (3).png" alt="">
+                        <img src="./img/gallery/nav (4).png" alt="">
+                        <img src="./img/gallery/nav (5).png" alt="">
+                        <img src="./img/gallery/nav (6).png" alt="">
+                        <img src="./img/gallery/nav (7).png" alt="">
+                        <img src="./img/gallery/nav (8).png" alt="">
+                     </div>
+                     <div class="character_img2">
+                         <img src="./img/gallery/nav (9).png" alt="">
+                         <img src="./img/gallery/nav (10).png" alt="">
+                        <img src="./img/gallery/nav (11).png" alt="">
+                         <img src="./img/gallery/nav (12).png" alt="">
+                         <img src="./img/gallery/nav (13).png" alt="">
+                         <img src="./img/gallery/nav (14).png" alt="">
+                         <img src="./img/gallery/nav.png" alt="">
+                     </div>
+            
+                    
+                    
+                </div>
+            </div> 
+        </div>
+
+    </div>
+
+    <footer class="connect">
+        
+        <div class="boi">
+           <p class="title"> Planning & Development</p>
+           <div>
+            <img src="./img/logo_boi.png" alt="">
+
+           </div>
+           
+            <p class="text">Bank of Innovation, Inc.</p>
+        </div>
+
+        <div class="infomation">
+            <p class="title">Title</p>
+            <p class="infomation">ㅤMementoMori </p>
+        </div>
+        <div class="infomation">
+            <p class="title">Platform</p>
+            <p class="infomation">ㅤiOS/Android </p>
+        </div>
+        <div class="infomation">
+            <p class="title">Genre</p>
+            <p class="infomation">ㅤRPG </p>
+        </div>
+        <div class="infomation">
+            <p class="title">Price</p>
+            <p class="infomation">ㅤFree to play</p>
+            <p class="note">(In-app purchases available) </p>
+        </div>
+        <div class="social">
+            <img src="./img/icon_fb.png" alt="">
+            <img src="./img/icon_twitter.png" alt="">
+            <img src="./img/icon_youtube.png" alt="">
+        </div>
+        <div class="infomation">
+            <nav>
+                <p class="note">Terms of Service</p>
+                <p class="note">Subscription Service User Agreement</p>
+                <p class="note">Privacy Policy</p>
+                <p class="note">Do Not Sell My Personal Information</p>
+                <p class="note">Guidelines for the Use of Intellectual Property</p>
+            </nav>
+            <p class="note">Contact Us: support@mememori-game.com</p>
+        </div>
+        <p class="note">© Bank of Innovation, Inc.</p>
+       
+
+   </footer>
+
+  
+
+
+    
+
+    
+</body>
+</html>

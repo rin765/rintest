@@ -1,0 +1,367 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: "Cinzel", serif;
+    box-sizing: border-box;
+}
+.top_bar {
+    padding: 16px;
+    margin: 0%;
+    display: flex;
+    height: fit-content;
+    width: 100%;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 70%);
+    color: azure;
+    position: fixed;
+    z-index: 99;
+}
+nav.left_bar ul {
+    padding: 0%;
+    margin: 0%;
+    height: auto;
+    width: auto;
+    display: flex;
+    height: fit-content;
+    justify-content: flex-start;
+    margin-left: 10% ;
+    gap: 16px;
+    align-content: center;
+}
+nav.left_bar {
+    padding: 0%;
+    margin: 0%;
+    width: auto;
+    height: auto;
+    display: flex;
+    height: fit-content;
+    justify-content: flex-start;
+   
+
+}
+nav.left_bar ul :hover {
+    text-shadow: 0 0 12px rgb(187, 58, 11) ;
+    transition: ease-in 0.2s;
+   
+    
+}
+
+nav.left_bar ul li {
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    height: auto;
+    justify-content: flex-start;
+    font-size: 24px;
+    align-content: center;
+    
+}
+.right_bar {
+    padding: 0%;
+    margin: 0%;
+    margin-right: 5%;
+    height: auto;
+    width: auto;
+    display: flex;
+    height: fit-content;
+    justify-content: center;
+    margin-left: 10% ;
+    gap: 16px;
+    align-content: center;
+
+}
+.right_bar p {
+    align-content: center;
+}
+.right_bar img {
+    height: 32px;
+    width: 32px;
+    align-content: center;
+}
+
+.contents {
+    z-index: 5;
+    padding: 0%;
+    margin: 0%;
+    height: fit-content;
+    width: 100%;
+    position: relative;
+}
+
+
+h1 {
+    font-size: 32px;
+}
+.bgm {
+    position: relative;
+    width: 80%;
+    height: fit-content;
+    display: flex;
+    top: 96px;
+    left: 10%;
+    justify-content: space-between;
+    z-index: 3;
+  
+}
+.bgm_right {
+    display: flex;
+ 
+}
+.name_bgm{
+    height: auto;
+    width: auto;
+    position: relative;
+    align-content: center;
+}
+.name_bgm img {
+    height: auto;
+    width: auto;
+    margin-top: 4px;
+   
+}
+.name_bgm p {
+    height: auto;
+    width: auto;
+    position: absolute;
+    right: 3%;
+    top: 30%;  
+}
+.play img {
+    height: 48px ;
+    width: 48px;
+
+}
+
+.play {
+    display: flex;
+    height: fit-content;
+    width: auto;
+    align-content: center;
+    gap: 12px;
+}
+.play audio {
+    display: none;
+}
+.play :hover {
+    opacity: 50%;
+    transition: ease 0.4s;
+
+}
+.play p {
+    height: auto;
+    width: auto;
+    align-content: center;
+}
+.play button {
+    height: 48px;
+    width: 48px;
+    border: none;
+    background:url(/img/btn_play.png);
+}
+.play button img {
+    height: 48px;
+    width: 48px;
+}    
+picture {
+    height: auto;
+    width: auto;
+    position: absolute;
+    z-index: -2;
+}
+video {
+    height: auto;
+    width: auto;
+    position: absolute;
+    z-index: -3;
+}
+.text_right {
+    width: fit-content;
+    height: 1080px;
+    position: absolute;
+    right: 0%;
+    align-content: end;
+}
+
+
+.text_right img {
+    height: auto;
+    width: auto;
+    padding-bottom: 48px;
+    z-index: 1;
+}
+.text_right .name {
+    height: auto;
+    width: auto;
+    position: absolute;
+    text-align: end;
+    z-index: 2;
+    bottom:25%;
+    right: 21%;
+
+}
+.name {
+    height: auto;
+    width: auto;
+    position: relative;
+    display: block; 
+}
+.name p.aa {
+    font-size: 72px;
+    margin-bottom: 32px;
+    font-family: "Noto Serif", system-ui;
+    
+
+}
+
+.name nav {
+    height: auto;
+    width: auto;
+    display: inline-block;
+    padding-bottom: 128px;
+}
+.name nav ul {
+    height: auto;
+    width: auto;
+    display: flex;
+    gap: 32px;
+    justify-content: end;
+}
+.name nav ul li {
+    height: auto;
+    width: auto;
+    display: flex;
+    font-family: "Noto Serif", system-ui;
+    font-size: 20px;
+}
+.body {
+    height: auto;
+    width: auto;
+    display: flex; 
+   
+   
+}
+.body p {
+    height: auto;
+    width: auto;
+    display: flex; 
+    font-size: 20px;
+    font-family: "Noto Serif", system-ui;
+}
+.gallery {
+    width: fit-content;
+    height: auto;
+    position: absolute;
+    top: 948px;
+  
+}
+.gallery .character {
+    width: 60%;
+    height: auto;
+    position: absolute;
+    top: 35%;
+    left: 30%;
+}
+
+.character_img {
+    width: 60%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 8px;
+}
+.character_img2 {
+    width: 60%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 8px;
+}
+.gallery .character_img img {
+    width: 120px;
+    height: 120px;
+}
+.character_img :hover {
+    transform: scale(1.1);
+    transition: ease 0.3s ;
+
+}
+.character_img2 :hover {
+    transform: scale(1.1);
+    transition: ease 0.3s ;
+
+}
+.gallery .character_img2 img {
+    width: 120px;
+    height: 120px;
+}
+footer.connect {
+    position: relative;
+    top: 1320px;
+    z-index: 2;
+    line-height: 1;
+    background-color: #0a0a0a;
+    min-height: 100px;
+    color: #fff;
+    text-align: center;
+    padding: 120px 0 80px;
+    display: grid;
+    justify-content: center;
+    gap: 64px;
+    width: 100%;
+
+}
+.boi img {
+    height: 80px;
+    width: auto;
+}
+.boi {
+    display: grid;
+    height: auto;
+    width: 100%;
+    gap: 16px;
+    justify-content: center;
+}
+p.title {
+    font-size: 24px;
+}
+p.text {
+    font-size: 24px;
+    font-family: "Noto Serif JP" , system-ui;
+}
+p.infomation {
+    font-size: 32px;
+    font-family: "Noto Serif JP" , system-ui;
+    letter-spacing: 20px;
+    text-align: center;
+}
+p.note {
+    font-size: 14px;
+    font-family: "Noto Serif JP" , system-ui;
+    
+}
+.infomation {
+    display: grid;
+    justify-content: center;
+    gap: 16px;
+    
+}
+.social {
+    display: flex;
+    gap: 32px;
+    justify-content: center; 
+}
+.social img {
+    height: 48px;
+    width: 48px;
+}
+.infomation nav {
+    display: flex;
+    gap: 24px;
+}
+.bgmplayer {
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0.25);
+    max-height: 999999px;
+}
+ 
